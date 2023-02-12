@@ -72,9 +72,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴇʟʟᴏ* {}, 🥰
+*😇 ʜᴇʟʟᴏ* {} 🥰
 
 *🙈 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ* {} !
+
 ➻ ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.
 
 ────────────────"""
@@ -100,7 +101,7 @@ buttons = [
 ]
 
 HELP_STRINGS = f"""
-*» {BOT_NAME} ꜰᴇᴀᴛᴜʀᴇs*
+*» {BOT_NAME} *
 
 ❤️ ʏᴏᴜ ᴄᴀɴ ᴄʟɪᴄᴋ ᴏɴ ɢɪᴠᴇɴ ʙᴜᴛᴛᴏɴs ᴛᴏ ᴜsᴇ ᴍʏ ғᴇᴀᴛᴜʀᴇs ɪᴛs ᴠᴇʀʏ ᴇᴀsʏ ᴅᴇᴀʀ ғʀɪᴇɴᴅ."""
 
@@ -345,9 +346,8 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
     if query.data == "fallen_":
         uptime = get_readable_time((time.time() - StartTime))
         query.message.edit_text(
-            text=f"*ʜᴇʏ,*🥀\n  *ᴛʜɪs ɪs {BOT_NAME}*"
-            "\n*ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀꜱɪʟʏ ᴀɴᴅ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴄᴀᴍᴍᴇʀꜱ ᴀɴᴅ ꜱᴘᴀᴍᴍᴇʀꜱ.*"
-            "\n*ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ sǫʟᴀʟᴄʜᴇᴍʏ ᴀɴᴅ ᴍᴏɴɢᴏᴅʙ ᴀs ᴅᴀᴛᴀʙᴀsᴇ.*"
+            text=f"*❤️ ʜᴇʟʟᴏ , Wᴇʟᴄᴏᴍᴇ ᴛᴏ {BOT_NAME}*"
+            "\n*🙂 Tʜɪs ɪs ᴀ ᴘᴏᴡᴇʀғᴜʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ɪɴ ᴡʜɪᴄʜ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs ᴛʜᴀɴ ᴏᴛʜᴇʀs ʙᴏᴛ.*"
             "\n\n────────────────────"
             f"\n*➻ ᴜᴩᴛɪᴍᴇ »* {uptime}"
             f"\n*➻ ᴜsᴇʀs »* {sql.num_users()}"
