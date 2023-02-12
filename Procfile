@@ -1,1 +1,1 @@
-worker: python3 -m Angelrobot
+worker: python3 -m FallenRobot
