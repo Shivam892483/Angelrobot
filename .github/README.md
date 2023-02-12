@@ -5,7 +5,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://github.com/Shivam892483/FallenRobot/blob/master/FallenRobot/resources/fallen.jpg.jpg">
+  <img src="https://github.com/Shivam892483/FallenRobot/blob/master/FallenRobot/resources/fallen.jpg">
 </p>
 
 _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ Aɴɢᴇʟ ✘ ʀᴏʙᴏᴛ](https://t.me/Angel_XRobot)**_
