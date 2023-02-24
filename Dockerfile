@@ -68,8 +68,8 @@ RUN pip3 install --upgrade pip setuptools
 RUN git clone https://github.com/Shivam892483/Angelrobot /root/Angelrobot
 WORKDIR /root/Angelrobot
 
-#Copy config file to /root/Angelrobot/FallenRobot
-COPY ./FallenRobot/config.py ./FallenRobot/config.py* /root/Angelrobot/FallenRobot/
+#Copy config file to /root/Angelrobot/Angelrobot
+COPY ./Angelrobot/config.py ./Angelrobot/config.py* /root/Angelrobot/Angelrobot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","FallenRobot"]
+CMD ["python3","-m","Angelrobot"]
