@@ -1,4 +1,4 @@
 @echo off
-TITLE Fallen Robot
+TITLE Angel Robot
 :: Enables virtual env mode and then starts Angel
-env\scripts\activate.bat && py -m FallenRobot
+env\scripts\activate.bat && py -m Angelrobot
